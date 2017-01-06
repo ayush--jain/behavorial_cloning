@@ -20,16 +20,10 @@ Since the generator was randomly picking images, the training and validation acc
 ## Sample Images from camera view
 
 #### Right image
-
-Inline-style: 
 ![alt text](/images/right_image.png "Right image")
 
-#### Center image
-
-Inline-style: 
+#### Center image 
 ![alt text](/images/image_center.png "Center image")
 
 #### Left image
-
-Inline-style: 
 ![alt text](/images/image_left.png "Left image")
