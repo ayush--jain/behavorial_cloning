@@ -1,8 +1,26 @@
 # CarND-Behavioral-Cloning
-My behavioral cloning project from Udactiy's Self-Driving Car Nanodegree.
+My behavioral cloning project from Udactiy's Self-Driving Car Nanodegree. Simulator can be found at:
+
+[Windows 64 bit](https://d17h27t6h515a5.cloudfront.net/topher/2016/November/5831f3a4_simulator-windows-64/simulator-windows-64.zip)
+[Windows 32 bit](https://d17h27t6h515a5.cloudfront.net/topher/2016/November/5831f4b6_simulator-windows-32/simulator-windows-32.zip)
+[macOS](https://d17h27t6h515a5.cloudfront.net/topher/2016/November/5831f290_simulator-macos/simulator-macos.zip)
+[Linux](https://d17h27t6h515a5.cloudfront.net/topher/2016/November/5831f0f7_simulator-linux/simulator-linux.zip)
+
+Model can be run as:
+```
+python drive.py model.json
+```
+
+Software requirements:
+* numpy
+* flask-socketio
+* eventlet
+* pillow
+* h5py
+* keras
 
 ## Data
-I collected data provided by Udacity. I collected more data around tricky corners since most of the tracks were straight or soft curves.
+I collected [data provided by Udacity](https://d17h27t6h515a5.cloudfront.net/topher/2016/December/584f6edd_data/data.zip). I collected more data around tricky corners since most of the tracks were straight or soft curves.
 
 I preprocessed the data for training by resizing to 66x200 pixel images and converting to YUV color scale, for using in the NVIDIA model. I also cropped the bottom 25 pix and top 10% of the image to remove unwanted noise. I used a generator to read images, perform the preprocessing and randomly augment the images and yield images and steering angles. For augmentation, I flipped random images horizontally and changed the brightness of the images randomly. I didn't create a different testing set because the real testing could be done by running the simulator in autonomous mode to get qualitative results.
 
