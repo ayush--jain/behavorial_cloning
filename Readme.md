@@ -1,5 +1,8 @@
 # CarND-Behavioral-Cloning
-My behavioral cloning project from Udactiy's Self-Driving Car Nanodegree. Simulator can be found at:
+My behavioral cloning project from Udactiy's Self-Driving Car Nanodegree. </br>
+Project video here: https://youtu.be/ERMdxHlE2js </br>
+
+Simulator can be found at:
 
 [Windows 64 bit](https://d17h27t6h515a5.cloudfront.net/topher/2016/November/5831f3a4_simulator-windows-64/simulator-windows-64.zip)</br>
 [Windows 32 bit](https://d17h27t6h515a5.cloudfront.net/topher/2016/November/5831f4b6_simulator-windows-32/simulator-windows-32.zip)</br>
